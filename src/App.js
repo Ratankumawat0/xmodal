@@ -21,7 +21,7 @@ function App() {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
   };
-
+// button
   // Validate Form
   const validateForm = () => {
     const { username, email, phone, dob } = formData;
